@@ -3,7 +3,7 @@
  * Kadence child functions.
  */
 
-add_action( 'wp_enqueue_scripts', 'kadence_child_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'kadence_child_enqueue_styles', 11 );
 /**
  * Enqueue current theme's stylesheet.
  */

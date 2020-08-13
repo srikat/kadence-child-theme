@@ -1,4 +1,4 @@
-# kadence-child-theme
+# Kadence Child Theme
 
 ## Introduction
 
@@ -30,3 +30,7 @@ If you wish to bring back the earlier Customizer settings that were present when
 = 1.0.0 ( August 13, 2020 ) =
 
 Initial Release.
+
+= 1.0.1 ( August 14, 2020 ) =
+
+Set higher priority than the default 10 for `add_action` line for loading `style.css` so that sytles override those coming from Customizer.
