@@ -27,10 +27,14 @@ If you wish to bring back the earlier Customizer settings that were present when
 
 ## Changelog
 
-= 1.0.0 ( August 13, 2020 ) =
+= 1.0.2 ( August 24, 2020 ) =
 
-Initial Release.
+Fixed the order of version number and `$in_footer` in `wp_enqueue_style()`.
 
 = 1.0.1 ( August 14, 2020 ) =
 
 Set higher priority than the default 10 for `add_action` line for loading `style.css` so that sytles override those coming from Customizer.
+
+= 1.0.0 ( August 13, 2020 ) =
+
+Initial Release.
